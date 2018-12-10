@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.drawer-left {
+  width: 300px;
+  height: 100vh; }
+  .drawer-left .drawer-buttons {
+    display: flex;
+    flex-direction: column; }
+    .drawer-left .drawer-buttons .hide-button {
+      margin: 10px;
+      width: 20px;
+      height: 20px; }
+    .drawer-left .drawer-buttons .new-artboard-button {
+      color: white;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      font-size: 15px;
+      text-transform: uppercase; }
+  .drawer-left .panel {
+    margin: 0; }
+    .drawer-left .panel .down-text {
+      color: aqua; }
+    .drawer-left .panel .drawer-text {
+      margin-top: 30px; }
+      .drawer-left .panel .drawer-text .toGoogle {
+        text-decoration: underline;
+        cursor: pointer; }
+  .drawer-left .panel-disabled {
+    margin: 0 auto;
+    height: 70%;
+    border-bottom: none;
+    background: white;
+    margin-top: 40px; }
+    .drawer-left .panel-disabled p {
+      color: grey;
+      text-align: center;
+      font-size: 20px; }
+
+body {
+  min-height: 100vh; }
+  body #root {
+    min-height: 100vh; }
+    body #root .grey {
+      background: #222222 !important; }
+    body #root .lighterGrey {
+      background: #424242 !important; }
+  body .header .header-content {
+    width: 100%; }
+    body .header .header-content .header-items {
+      justify-content: space-between; }
+    body .header .header-content .logo {
+      background-image: url(../../assets/logo.png);
+      cursor: pointer;
+      position: absolute;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center; }
+    body .header .header-content .logo:hover {
+      background-image: url(../../assets/google.png); }
+    body .header .header-content .logo-button {
+      margin-left: 25px; }
+      body .header .header-content .logo-button .btn-img {
+        background-image: url(../../assets/svg.svg);
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 5px; }
+    body .header .header-content .progress {
+      display: flex;
+      width: 300px;
+      justify-content: center;
+      line-height: 16px;
+      font-size: 14px;
+      color: grey;
+      cursor: pointer; }
+      body .header .header-content .progress .progress-button {
+        width: 70px;
+        height: 13px;
+        border: 1px solid #AAAAAA;
+        background: #bbbbbb;
+        box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+        border-radius: 100px;
+        overflow: hidden;
+        margin-right: 9px;
+        display: flex;
+        align-items: flex-end; }
+        body .header .header-content .progress .progress-button .progress-bottom {
+          background: #aaadb5;
+          height: 55%;
+          width: 100%; }
+        body .header .header-content .progress .progress-button .active {
+          width: 5px;
+          height: 100%;
+          background: red; }
+    body .header .header-content .sign-up {
+      display: flex;
+      align-items: center; }
+      body .header .header-content .sign-up h2 {
+        margin-left: -170px; }
+  body .center-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    body .center-block .center-text {
+      padding: 20px; }
+      body .center-block .center-text .grey-text {
+        padding: 10px 0;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.54); }
+    body .center-block .block-buttons {
+      display: flex;
+      justify-content: flex-end;
+      padding: 8px; }
+      body .center-block .block-buttons .demo-button {
+        margin-right: 10px; }
+
+/*# sourceMappingURL=Header.css.map */

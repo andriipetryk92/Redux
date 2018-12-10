@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grey{
+    background: #222222!important;
+}
+.lighterGrey {
+    background: #424242!important;
+}
+.menu-items{
+    padding: 5px 20px 30px 20px;
+    outline: none;
+    .MuiList-padding-300{
+        padding: 0;
+    }
+    .tweet{
+        background: #1b95e0;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 3px 5px;
+        line-height: 30px;
+    }
+    .item{
+        img{
+            width: 20px;
+            padding-right: 30px;
+        }
+        span{
+            width: 160px;
+            font-size: 14px;
+        }
+        .check{
+            width: 30px;
+        }
+    }
+}
+
+
+

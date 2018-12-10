@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,oBAAI;IACA,WAAW,EAAE,IAAI;IACjB,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK",
+"sources": ["AboutArtboard.scss"],
+"names": [],
+"file": "AboutArtboard.css"
+}

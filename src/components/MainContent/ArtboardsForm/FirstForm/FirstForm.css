@@ -1,0 +1,17 @@
+.firstForm {
+  display: flex;
+  flex-direction: column; }
+  .firstForm .firstPaper .firstInput {
+    margin: 25px;
+    padding: 20px 0; }
+    .firstForm .firstPaper .firstInput .nameInput {
+      width: 100%; }
+      .firstForm .firstPaper .firstInput .nameInput .enterValue {
+        font-size: 35px; }
+  .firstForm .lighterGrey {
+    background: #424242 !important; }
+  .firstForm .more_horiz {
+    width: 40px;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=FirstForm.css.map */

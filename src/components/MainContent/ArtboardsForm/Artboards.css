@@ -1,0 +1,10 @@
+.content {
+  width: 90%;
+  display: flex;
+  flex-direction: column; }
+  .content .grey {
+    background: #222222 !important; }
+  .content .lighterGrey {
+    background: #424242 !important; }
+
+/*# sourceMappingURL=Artboards.css.map */

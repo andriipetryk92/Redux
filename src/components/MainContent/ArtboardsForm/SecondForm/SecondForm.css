@@ -1,0 +1,49 @@
+.secondForm {
+  display: flex;
+  flex-direction: column; }
+  .secondForm .lighterGrey {
+    background: #424242 !important; }
+  .secondForm .secondPaper .secondInput {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px; }
+    .secondForm .secondPaper .secondInput .nameInput2 {
+      padding: 15px 0 0 30px; }
+  .secondForm .secondPaper .cards {
+    display: flex; }
+    .secondForm .secondPaper .cards .cardFirst {
+      border-radius: 5px;
+      width: 120px;
+      height: 120px;
+      border: 2px solid #ec6470;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 5px 30px 30px;
+      box-sizing: border-box;
+      cursor: pointer; }
+    .secondForm .secondPaper .cards .cardFirst:hover {
+      border: 2px solid red; }
+    .secondForm .secondPaper .cards .cardSecond, .secondForm .secondPaper .cards .cardThird {
+      background-image: url("../../../../assets/logoPlaceholder.png");
+      background-size: cover;
+      border-radius: 5px;
+      width: 120px;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 5px; }
+      .secondForm .secondPaper .cards .cardSecond p, .secondForm .secondPaper .cards .cardThird p {
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        width: 90px;
+        text-align: center; }
+  .secondForm .more_horiz {
+    width: 40px;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=SecondForm.css.map */

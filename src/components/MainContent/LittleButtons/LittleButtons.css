@@ -1,0 +1,17 @@
+.allInsertImages {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px; }
+  .allInsertImages .insertImages {
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0);
+    margin-left: 12px;
+    background-color: #e0e0e0;
+    width: 40px;
+    height: 40px;
+    padding: 0; }
+  .allInsertImages .insertImages:hover {
+    background: #c7c8c9; }
+  .allInsertImages .green {
+    background-color: #6BBDB9; }
+
+/*# sourceMappingURL=LittleButtons.css.map */
